@@ -13,6 +13,7 @@
 		09DEFAB41E5153ED00DD2189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DEFAB21E5153ED00DD2189 /* Main.storyboard */; };
 		09DEFAB61E5153ED00DD2189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DEFAB51E5153ED00DD2189 /* Assets.xcassets */; };
 		09DEFAB91E5153ED00DD2189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DEFAB71E5153ED00DD2189 /* LaunchScreen.storyboard */; };
+		6D9B5AFAAD98993080466412 /* libPods-SecretPicture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D9092428E0940C934F3918 /* libPods-SecretPicture.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		09DEFAB51E5153ED00DD2189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09DEFAB81E5153ED00DD2189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09DEFABA1E5153ED00DD2189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2753D0482D1D13AA648465FE /* Pods-SecretPicture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretPicture.release.xcconfig"; path = "Pods/Target Support Files/Pods-SecretPicture/Pods-SecretPicture.release.xcconfig"; sourceTree = "<group>"; };
+		70D9092428E0940C934F3918 /* libPods-SecretPicture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SecretPicture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71F5AE7D6643DAFBCA18055 /* Pods-SecretPicture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretPicture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecretPicture/Pods-SecretPicture.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D9B5AFAAD98993080466412 /* libPods-SecretPicture.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				09DEFAA81E5153ED00DD2189 /* SecretPicture */,
 				09DEFAA71E5153ED00DD2189 /* Products */,
+				C7F9BAE32E06E28F216F6CF2 /* Pods */,
+				DEDF5AAA9424FD4FD588434B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +86,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C7F9BAE32E06E28F216F6CF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E71F5AE7D6643DAFBCA18055 /* Pods-SecretPicture.debug.xcconfig */,
+				2753D0482D1D13AA648465FE /* Pods-SecretPicture.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DEDF5AAA9424FD4FD588434B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70D9092428E0940C934F3918 /* libPods-SecretPicture.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09DEFABD1E5153ED00DD2189 /* Build configuration list for PBXNativeTarget "SecretPicture" */;
 			buildPhases = (
+				F035AE7F4BF207A745F4DD48 /* [CP] Check Pods Manifest.lock */,
 				09DEFAA21E5153ED00DD2189 /* Sources */,
 				09DEFAA31E5153ED00DD2189 /* Frameworks */,
 				09DEFAA41E5153ED00DD2189 /* Resources */,
+				9DDFF59AAF65301A3BDB04D3 /* [CP] Embed Pods Frameworks */,
+				83FA69EEF2051FD019EED88C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		83FA69EEF2051FD019EED88C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecretPicture/Pods-SecretPicture-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DDFF59AAF65301A3BDB04D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SecretPicture/Pods-SecretPicture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F035AE7F4BF207A745F4DD48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		09DEFAA21E5153ED00DD2189 /* Sources */ = {
@@ -268,6 +343,7 @@
 		};
 		09DEFABE1E5153ED00DD2189 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E71F5AE7D6643DAFBCA18055 /* Pods-SecretPicture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SecretPicture/Info.plist;
@@ -279,6 +355,7 @@
 		};
 		09DEFABF1E5153ED00DD2189 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2753D0482D1D13AA648465FE /* Pods-SecretPicture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SecretPicture/Info.plist;
