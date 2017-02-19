@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		091D8AF61E52D74800C38F26 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D8AF31E52D74800C38F26 /* UIView+Additions.m */; };
-		091D8AF71E52D74800C38F26 /* UIView+LayoutFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D8AF51E52D74800C38F26 /* UIView+LayoutFrame.m */; };
-		091D8AFC1E52D9D900C38F26 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D8AFB1E52D9D900C38F26 /* UIImage+Additions.m */; };
-		091D8B021E52DA6700C38F26 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D8AFF1E52DA6700C38F26 /* NSDate+Additions.m */; };
-		091D8B031E52DA6700C38F26 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D8B011E52DA6700C38F26 /* NSDate+Utilities.m */; };
 		091D8B071E52DB1900C38F26 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D8B061E52DB1900C38F26 /* SFHFKeychainUtils.m */; };
 		091D8B0B1E52DB4600C38F26 /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D8B0A1E52DB4600C38F26 /* DeviceModel.m */; };
 		091D8B1A1E52DB7000C38F26 /* LoadingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D8B0E1E52DB7000C38F26 /* LoadingIndicator.m */; };
@@ -36,21 +31,14 @@
 		09DEFAB61E5153ED00DD2189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09DEFAB51E5153ED00DD2189 /* Assets.xcassets */; };
 		09DEFAB91E5153ED00DD2189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09DEFAB71E5153ED00DD2189 /* LaunchScreen.storyboard */; };
 		6D9B5AFAAD98993080466412 /* libPods-SecretPicture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 70D9092428E0940C934F3918 /* libPods-SecretPicture.a */; };
+		B70576721E59592F005E7027 /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B70576711E59592F005E7027 /* NSDate+Additions.m */; };
+		B70576751E595964005E7027 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B70576741E595964005E7027 /* UIImage+Additions.m */; };
+		B705767A1E595989005E7027 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B70576771E595989005E7027 /* UIView+Additions.m */; };
+		B705767B1E595989005E7027 /* UIView+LayoutFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B70576791E595989005E7027 /* UIView+LayoutFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		091D8AEC1E52D63100C38F26 /* SecretPicture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretPicture-Prefix.pch"; sourceTree = "<group>"; };
-		091D8AF21E52D74800C38F26 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
-		091D8AF31E52D74800C38F26 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
-		091D8AF41E52D74800C38F26 /* UIView+LayoutFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutFrame.h"; sourceTree = "<group>"; };
-		091D8AF51E52D74800C38F26 /* UIView+LayoutFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutFrame.m"; sourceTree = "<group>"; };
-		091D8AF81E52D98F00C38F26 /* CommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
-		091D8AFA1E52D9D900C38F26 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Additions.h"; sourceTree = "<group>"; };
-		091D8AFB1E52D9D900C38F26 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Additions.m"; sourceTree = "<group>"; };
-		091D8AFE1E52DA6700C38F26 /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Additions.h"; sourceTree = "<group>"; };
-		091D8AFF1E52DA6700C38F26 /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Additions.m"; sourceTree = "<group>"; };
-		091D8B001E52DA6700C38F26 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
-		091D8B011E52DA6700C38F26 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
 		091D8B051E52DB1900C38F26 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
 		091D8B061E52DB1900C38F26 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
 		091D8B091E52DB4600C38F26 /* DeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceModel.h; sourceTree = "<group>"; };
@@ -89,6 +77,15 @@
 		09DEFABA1E5153ED00DD2189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2753D0482D1D13AA648465FE /* Pods-SecretPicture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretPicture.release.xcconfig"; path = "Pods/Target Support Files/Pods-SecretPicture/Pods-SecretPicture.release.xcconfig"; sourceTree = "<group>"; };
 		70D9092428E0940C934F3918 /* libPods-SecretPicture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SecretPicture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70576701E59592F005E7027 /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Additions.h"; path = "SecretPicture/Category(分类)/NSDate+Additions.h"; sourceTree = SOURCE_ROOT; };
+		B70576711E59592F005E7027 /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Additions.m"; path = "SecretPicture/Category(分类)/NSDate+Additions.m"; sourceTree = SOURCE_ROOT; };
+		B70576731E595964005E7027 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Additions.h"; path = "SecretPicture/Category(分类)/UIImage+Additions.h"; sourceTree = SOURCE_ROOT; };
+		B70576741E595964005E7027 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Additions.m"; path = "SecretPicture/Category(分类)/UIImage+Additions.m"; sourceTree = SOURCE_ROOT; };
+		B70576761E595989005E7027 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Additions.h"; path = "SecretPicture/Category(分类)/UIView+Additions.h"; sourceTree = SOURCE_ROOT; };
+		B70576771E595989005E7027 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Additions.m"; path = "SecretPicture/Category(分类)/UIView+Additions.m"; sourceTree = SOURCE_ROOT; };
+		B70576781E595989005E7027 /* UIView+LayoutFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+LayoutFrame.h"; path = "SecretPicture/Category(分类)/UIView+LayoutFrame.h"; sourceTree = SOURCE_ROOT; };
+		B70576791E595989005E7027 /* UIView+LayoutFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+LayoutFrame.m"; path = "SecretPicture/Category(分类)/UIView+LayoutFrame.m"; sourceTree = SOURCE_ROOT; };
+		B705767E1E595A1A005E7027 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonMacro.h; path = "SecretPicture/Category(分类)/CommonMacro.h"; sourceTree = SOURCE_ROOT; };
 		E71F5AE7D6643DAFBCA18055 /* Pods-SecretPicture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretPicture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecretPicture/Pods-SecretPicture.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,7 +115,7 @@
 		091D8AEF1E52D6ED00C38F26 /* Macro(宏定义) */ = {
 			isa = PBXGroup;
 			children = (
-				091D8AF81E52D98F00C38F26 /* CommonMacro.h */,
+				B705767E1E595A1A005E7027 /* CommonMacro.h */,
 			);
 			path = "Macro(宏定义)";
 			sourceTree = "<group>";
@@ -136,10 +133,10 @@
 		091D8AF11E52D74800C38F26 /* UIView+setFrame */ = {
 			isa = PBXGroup;
 			children = (
-				091D8AF21E52D74800C38F26 /* UIView+Additions.h */,
-				091D8AF31E52D74800C38F26 /* UIView+Additions.m */,
-				091D8AF41E52D74800C38F26 /* UIView+LayoutFrame.h */,
-				091D8AF51E52D74800C38F26 /* UIView+LayoutFrame.m */,
+				B70576761E595989005E7027 /* UIView+Additions.h */,
+				B70576771E595989005E7027 /* UIView+Additions.m */,
+				B70576781E595989005E7027 /* UIView+LayoutFrame.h */,
+				B70576791E595989005E7027 /* UIView+LayoutFrame.m */,
 			);
 			path = "UIView+setFrame";
 			sourceTree = "<group>";
@@ -147,8 +144,8 @@
 		091D8AF91E52D9D900C38F26 /* UIImageAdditions */ = {
 			isa = PBXGroup;
 			children = (
-				091D8AFA1E52D9D900C38F26 /* UIImage+Additions.h */,
-				091D8AFB1E52D9D900C38F26 /* UIImage+Additions.m */,
+				B70576731E595964005E7027 /* UIImage+Additions.h */,
+				B70576741E595964005E7027 /* UIImage+Additions.m */,
 			);
 			path = UIImageAdditions;
 			sourceTree = "<group>";
@@ -156,10 +153,8 @@
 		091D8AFD1E52DA5C00C38F26 /* NSDate+Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				091D8AFE1E52DA6700C38F26 /* NSDate+Additions.h */,
-				091D8AFF1E52DA6700C38F26 /* NSDate+Additions.m */,
-				091D8B001E52DA6700C38F26 /* NSDate+Utilities.h */,
-				091D8B011E52DA6700C38F26 /* NSDate+Utilities.m */,
+				B70576701E59592F005E7027 /* NSDate+Additions.h */,
+				B70576711E59592F005E7027 /* NSDate+Additions.m */,
 			);
 			path = "NSDate+Utilities";
 			sourceTree = "<group>";
@@ -426,20 +421,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				091D8AF61E52D74800C38F26 /* UIView+Additions.m in Sources */,
+				B705767B1E595989005E7027 /* UIView+LayoutFrame.m in Sources */,
 				091D8B331E52DEA100C38F26 /* YYKVStorage.m in Sources */,
-				091D8AFC1E52D9D900C38F26 /* UIImage+Additions.m in Sources */,
-				091D8AF71E52D74800C38F26 /* UIView+LayoutFrame.m in Sources */,
-				091D8B031E52DA6700C38F26 /* NSDate+Utilities.m in Sources */,
 				09DEFAB11E5153ED00DD2189 /* ViewController.m in Sources */,
 				091D8B1C1E52DB7000C38F26 /* MBProgressHUDNew.m in Sources */,
+				B70576721E59592F005E7027 /* NSDate+Additions.m in Sources */,
 				091D8B341E52DEA100C38F26 /* YYMemoryCache.m in Sources */,
 				091D8B071E52DB1900C38F26 /* SFHFKeychainUtils.m in Sources */,
 				091D8B1B1E52DB7000C38F26 /* MBProgressHUDNew+BJHubHelper.m in Sources */,
-				091D8B021E52DA6700C38F26 /* NSDate+Additions.m in Sources */,
 				091D8B321E52DEA100C38F26 /* YYDiskCache.m in Sources */,
 				09DEFAAE1E5153ED00DD2189 /* AppDelegate.m in Sources */,
 				091D8B301E52DEA100C38F26 /* README.md in Sources */,
+				B705767A1E595989005E7027 /* UIView+Additions.m in Sources */,
+				B70576751E595964005E7027 /* UIImage+Additions.m in Sources */,
 				09DEFAAB1E5153ED00DD2189 /* main.m in Sources */,
 				091D8B1A1E52DB7000C38F26 /* LoadingIndicator.m in Sources */,
 				091D8B0B1E52DB4600C38F26 /* DeviceModel.m in Sources */,
