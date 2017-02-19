@@ -7,14 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		091D8B071E52DB1900C38F26 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D8B061E52DB1900C38F26 /* SFHFKeychainUtils.m */; };
-		091D8B0B1E52DB4600C38F26 /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D8B0A1E52DB4600C38F26 /* DeviceModel.m */; };
-		091D8B2F1E52DEA100C38F26 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 091D8B241E52DEA100C38F26 /* LICENSE */; };
-		091D8B301E52DEA100C38F26 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 091D8B251E52DEA100C38F26 /* README.md */; };
-		091D8B311E52DEA100C38F26 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D8B281E52DEA100C38F26 /* YYCache.m */; };
-		091D8B321E52DEA100C38F26 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D8B2A1E52DEA100C38F26 /* YYDiskCache.m */; };
-		091D8B331E52DEA100C38F26 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D8B2C1E52DEA100C38F26 /* YYKVStorage.m */; };
-		091D8B341E52DEA100C38F26 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D8B2E1E52DEA100C38F26 /* YYMemoryCache.m */; };
 		09DEFAAB1E5153ED00DD2189 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DEFAAA1E5153ED00DD2189 /* main.m */; };
 		09DEFAAE1E5153ED00DD2189 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DEFAAD1E5153ED00DD2189 /* AppDelegate.m */; };
 		09DEFAB11E5153ED00DD2189 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DEFAB01E5153ED00DD2189 /* ViewController.m */; };
@@ -35,24 +27,12 @@
 		B70576C51E595B94005E7027 /* forbid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70576BC1E595B94005E7027 /* forbid@2x.png */; };
 		B70576C61E595B94005E7027 /* reckBg.png in Resources */ = {isa = PBXBuildFile; fileRef = B70576BD1E595B94005E7027 /* reckBg.png */; };
 		B70576C71E595B94005E7027 /* reckBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70576BE1E595B94005E7027 /* reckBg@2x.png */; };
+		B70576CA1E598361005E7027 /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B70576C91E598361005E7027 /* DeviceModel.m */; };
+		B70576CD1E598384005E7027 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B70576CC1E598384005E7027 /* SFHFKeychainUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		091D8AEC1E52D63100C38F26 /* SecretPicture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretPicture-Prefix.pch"; sourceTree = "<group>"; };
-		091D8B051E52DB1900C38F26 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
-		091D8B061E52DB1900C38F26 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
-		091D8B091E52DB4600C38F26 /* DeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceModel.h; sourceTree = "<group>"; };
-		091D8B0A1E52DB4600C38F26 /* DeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceModel.m; sourceTree = "<group>"; };
-		091D8B241E52DEA100C38F26 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		091D8B251E52DEA100C38F26 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		091D8B271E52DEA100C38F26 /* YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
-		091D8B281E52DEA100C38F26 /* YYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCache.m; sourceTree = "<group>"; };
-		091D8B291E52DEA100C38F26 /* YYDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDiskCache.h; sourceTree = "<group>"; };
-		091D8B2A1E52DEA100C38F26 /* YYDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDiskCache.m; sourceTree = "<group>"; };
-		091D8B2B1E52DEA100C38F26 /* YYKVStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYKVStorage.h; sourceTree = "<group>"; };
-		091D8B2C1E52DEA100C38F26 /* YYKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKVStorage.m; sourceTree = "<group>"; };
-		091D8B2D1E52DEA100C38F26 /* YYMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMemoryCache.h; sourceTree = "<group>"; };
-		091D8B2E1E52DEA100C38F26 /* YYMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMemoryCache.m; sourceTree = "<group>"; };
 		09DEFAA61E5153ED00DD2189 /* SecretPicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretPicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DEFAAA1E5153ED00DD2189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09DEFAAC1E5153ED00DD2189 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -86,6 +66,10 @@
 		B70576BC1E595B94005E7027 /* forbid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forbid@2x.png"; sourceTree = "<group>"; };
 		B70576BD1E595B94005E7027 /* reckBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reckBg.png; sourceTree = "<group>"; };
 		B70576BE1E595B94005E7027 /* reckBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reckBg@2x.png"; sourceTree = "<group>"; };
+		B70576C81E598361005E7027 /* DeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceModel.h; sourceTree = "<group>"; };
+		B70576C91E598361005E7027 /* DeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceModel.m; sourceTree = "<group>"; };
+		B70576CB1E598384005E7027 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		B70576CC1E598384005E7027 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
 		E71F5AE7D6643DAFBCA18055 /* Pods-SecretPicture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretPicture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecretPicture/Pods-SecretPicture.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				B70576B11E595B94005E7027 /* LoadingIndicator */,
-				091D8B231E52DEA100C38F26 /* YYCache */,
 				091D8B081E52DB4600C38F26 /* DeviceInfo */,
 				091D8B041E52DB1900C38F26 /* SFHFKeychainUtils */,
 			);
@@ -162,8 +145,8 @@
 		091D8B041E52DB1900C38F26 /* SFHFKeychainUtils */ = {
 			isa = PBXGroup;
 			children = (
-				091D8B051E52DB1900C38F26 /* SFHFKeychainUtils.h */,
-				091D8B061E52DB1900C38F26 /* SFHFKeychainUtils.m */,
+				B70576CB1E598384005E7027 /* SFHFKeychainUtils.h */,
+				B70576CC1E598384005E7027 /* SFHFKeychainUtils.m */,
 			);
 			path = SFHFKeychainUtils;
 			sourceTree = "<group>";
@@ -171,35 +154,10 @@
 		091D8B081E52DB4600C38F26 /* DeviceInfo */ = {
 			isa = PBXGroup;
 			children = (
-				091D8B091E52DB4600C38F26 /* DeviceModel.h */,
-				091D8B0A1E52DB4600C38F26 /* DeviceModel.m */,
+				B70576C81E598361005E7027 /* DeviceModel.h */,
+				B70576C91E598361005E7027 /* DeviceModel.m */,
 			);
 			path = DeviceInfo;
-			sourceTree = "<group>";
-		};
-		091D8B231E52DEA100C38F26 /* YYCache */ = {
-			isa = PBXGroup;
-			children = (
-				091D8B241E52DEA100C38F26 /* LICENSE */,
-				091D8B251E52DEA100C38F26 /* README.md */,
-				091D8B261E52DEA100C38F26 /* YYCache */,
-			);
-			path = YYCache;
-			sourceTree = "<group>";
-		};
-		091D8B261E52DEA100C38F26 /* YYCache */ = {
-			isa = PBXGroup;
-			children = (
-				091D8B271E52DEA100C38F26 /* YYCache.h */,
-				091D8B281E52DEA100C38F26 /* YYCache.m */,
-				091D8B291E52DEA100C38F26 /* YYDiskCache.h */,
-				091D8B2A1E52DEA100C38F26 /* YYDiskCache.m */,
-				091D8B2B1E52DEA100C38F26 /* YYKVStorage.h */,
-				091D8B2C1E52DEA100C38F26 /* YYKVStorage.m */,
-				091D8B2D1E52DEA100C38F26 /* YYMemoryCache.h */,
-				091D8B2E1E52DEA100C38F26 /* YYMemoryCache.m */,
-			);
-			path = YYCache;
 			sourceTree = "<group>";
 		};
 		09DEFA9D1E5153ED00DD2189 = {
@@ -359,7 +317,6 @@
 				B70576C51E595B94005E7027 /* forbid@2x.png in Resources */,
 				B70576C41E595B94005E7027 /* forbid.png in Resources */,
 				B70576C71E595B94005E7027 /* reckBg@2x.png in Resources */,
-				091D8B2F1E52DEA100C38F26 /* LICENSE in Resources */,
 				B70576C61E595B94005E7027 /* reckBg.png in Resources */,
 				09DEFAB61E5153ED00DD2189 /* Assets.xcassets in Resources */,
 				09DEFAB41E5153ED00DD2189 /* Main.storyboard in Resources */,
@@ -422,22 +379,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B705767B1E595989005E7027 /* UIView+LayoutFrame.m in Sources */,
-				091D8B331E52DEA100C38F26 /* YYKVStorage.m in Sources */,
 				09DEFAB11E5153ED00DD2189 /* ViewController.m in Sources */,
+				B70576CD1E598384005E7027 /* SFHFKeychainUtils.m in Sources */,
 				B70576721E59592F005E7027 /* NSDate+Additions.m in Sources */,
-				091D8B341E52DEA100C38F26 /* YYMemoryCache.m in Sources */,
-				091D8B071E52DB1900C38F26 /* SFHFKeychainUtils.m in Sources */,
+				B70576CA1E598361005E7027 /* DeviceModel.m in Sources */,
 				B70576C01E595B94005E7027 /* MBProgressHUDNew+BJHubHelper.m in Sources */,
-				091D8B321E52DEA100C38F26 /* YYDiskCache.m in Sources */,
 				09DEFAAE1E5153ED00DD2189 /* AppDelegate.m in Sources */,
 				B70576BF1E595B94005E7027 /* LoadingIndicator.m in Sources */,
-				091D8B301E52DEA100C38F26 /* README.md in Sources */,
 				B705767A1E595989005E7027 /* UIView+Additions.m in Sources */,
 				B70576751E595964005E7027 /* UIImage+Additions.m in Sources */,
 				09DEFAAB1E5153ED00DD2189 /* main.m in Sources */,
 				B70576C11E595B94005E7027 /* MBProgressHUDNew.m in Sources */,
-				091D8B0B1E52DB4600C38F26 /* DeviceModel.m in Sources */,
-				091D8B311E52DEA100C38F26 /* YYCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
