@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - FLEX (2.1.1)
   - ReactiveCocoa (2.5):
     - ReactiveCocoa/UI (= 2.5)
   - ReactiveCocoa/Core (2.5):
@@ -21,18 +22,25 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
   - YYCache (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
+  - FLEX (~> 2.0)
   - ReactiveCocoa (~> 2.5)
+  - SDWebImage (~> 3.8)
   - YYCache
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FLEX: 27b768fcae23a313a1eb115076d429180ca9b472
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: '098e97e6176540799c27e804c96653ee0833d13c'
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 92ff366c0d804ec45655fd537a0c1217c8926f24
+PODFILE CHECKSUM: b742f17e284cb010dcb46352cb9e8b338b13557d
 
 COCOAPODS: 1.1.1

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment version="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TabBarViewController">
@@ -13,7 +17,6 @@
                 <outletCollection property="tabBarButtonCollection" destination="jhv-t3-VmN" id="PDy-Pi-MxD"/>
                 <outletCollection property="tabBarButtonCollection" destination="7" id="a0L-GD-0BE"/>
                 <outletCollection property="tabBarButtonCollection" destination="9" id="f9V-pt-MeD"/>
-                <outletCollection property="tabBarButtonCollection" destination="8" id="Qbx-Fx-yy9"/>
                 <outletCollection property="tabBarButtonCollection" destination="10" id="89G-BN-oR8"/>
             </connections>
         </placeholder>
@@ -25,91 +28,73 @@
                 <imageView userInteractionEnabled="NO" tag="200" contentMode="scaleToFill" image="tabBarBg" id="16">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                 </imageView>
-                <button opaque="NO" tag="1" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="jhv-t3-VmN" userLabel="车型" customClass="BJTabBarItem">
+                <button opaque="NO" tag="1" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="jhv-t3-VmN" userLabel="热门" customClass="BJTabBarItem">
                     <rect key="frame" x="0.0" y="3" width="64" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
                     <state key="normal">
-                        <color key="titleColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
                         <action selector="buttonAction:" destination="-1" eventType="touchUpInside" id="HZ3-ea-rWJ"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="2" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="7" userLabel="选车" customClass="BJTabBarItem">
+                <button opaque="NO" tag="2" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="7" userLabel="资源" customClass="BJTabBarItem">
                     <rect key="frame" x="64" y="3" width="64" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
                     <state key="normal">
-                        <color key="titleColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="selected" title="选车">
-                        <color key="titleColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="selected" title="资源">
+                        <color key="titleColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
-                    <state key="highlighted" title="选车">
-                        <color key="titleColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="highlighted" title="资源">
+                        <color key="titleColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
                         <action selector="buttonAction:" destination="-1" eventType="touchUpInside" id="8YP-Oe-JNT"/>
                     </connections>
                 </button>
-                <button opaque="NO" tag="3" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="9" userLabel="工具" customClass="BJTabBarItem">
+                <button opaque="NO" tag="3" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="9" userLabel="板块" customClass="BJTabBarItem">
                     <rect key="frame" x="192" y="3" width="64" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
                     <state key="normal">
-                        <color key="titleColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <state key="selected">
-                        <color key="titleColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <state key="highlighted">
-                        <color key="titleColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
                         <action selector="buttonAction:" destination="-1" eventType="touchUpInside" id="xFN-Cv-wye"/>
-                    </connections>
-                </button>
-                <button opaque="NO" tag="4" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="8" userLabel="社区" customClass="BJTabBarItem">
-                    <rect key="frame" x="128" y="3" width="64" height="48"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                    <state key="normal">
-                        <color key="titleColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <state key="selected">
-                        <color key="titleColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
-                    </state>
-                    <state key="highlighted">
-                        <color key="titleColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
-                    </state>
-                    <connections>
-                        <action selector="buttonAction:" destination="-1" eventType="touchUpInside" id="0zc-oA-a3o"/>
                     </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" tag="998" contentMode="scaleToFill" image="settingNew" id="291-yn-Dea">
                     <rect key="frame" x="220" y="8" width="9" height="9"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <button opaque="NO" tag="5" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="10" userLabel="我的" customClass="BJTabBarItem">
+                <button opaque="NO" tag="4" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" id="10" userLabel="我的" customClass="BJTabBarItem">
                     <rect key="frame" x="256" y="3" width="64" height="48"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="10"/>
                     <state key="normal">
-                        <color key="titleColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <state key="selected">
-                        <color key="titleColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <state key="highlighted">
-                        <color key="titleColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleColor" red="0.054901960780000002" green="0.41960784309999999" blue="0.75686274509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>
                         <action selector="buttonAction:" destination="-1" eventType="touchUpInside" id="H4Y-Zo-jji"/>
@@ -132,6 +117,6 @@
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
 </document>

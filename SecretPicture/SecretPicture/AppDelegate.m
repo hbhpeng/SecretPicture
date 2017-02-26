@@ -8,6 +8,14 @@
 
 #import "AppDelegate.h"
 
+#import "SPHotPictureViewController.h"
+
+#import "SPPersonalPageViewController.h"
+
+#import "SPSecondTabViewController.h"
+
+#import "SPMorePlatesViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,9 +25,61 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self constructTabbarControllers];
+    self.window.rootViewController = self.tabController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
+
+- (void)constructTabbarControllers
+{
+    //热门图片
+    SPHotPictureViewController * hotCon = [[SPHotPictureViewController alloc] init];
+    hotCon.hidesBottomBarWhenPushed = NO;
+    UINavigationController *hotNav = [self navWithRootController:hotCon];
+    
+    SPSecondTabViewController *secondCon = [[SPSecondTabViewController alloc] init];
+    secondCon.hidesBottomBarWhenPushed = NO;
+    UINavigationController *secondNav = [self navWithRootController:secondCon];
+    
+    SPMorePlatesViewController *morePlatesCon = [[SPMorePlatesViewController alloc] init];
+    morePlatesCon.hidesBottomBarWhenPushed = NO;
+    UINavigationController *morePlatesNav = [self navWithRootController:morePlatesCon];
+    
+    SPPersonalPageViewController *personalCon = [[SPPersonalPageViewController alloc] init];
+    personalCon.hidesBottomBarWhenPushed = NO;
+    UINavigationController *personNav = [self navWithRootController:personalCon];
+    
+    UITabBarController *tabController = [[UITabBarController alloc] init];
+    self.tabController = tabController;
+    self.tabController.viewControllers = @[hotNav,secondNav,morePlatesNav,personNav];
+    
+    self.tabbarView = [[TabBarViewController alloc] init];
+    self.tabbarView.delegate = self;
+    self.tabbarView.view.frame = CGRectMake(0, 0, MAINWIDTH, 49);
+    [self.tabController.tabBar addSubview:self.tabbarView.view];
+}
+
+- (UINavigationController *)navWithRootController:(UIViewController *)rootCon
+{
+    UINavigationController *navCon = [[UINavigationController alloc] initWithRootViewController:rootCon];
+    [navCon.navigationBar setBackgroundImage:[[UIImage imageNamed:@"_nav7.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(0, 200, 0, 20)]forBarMetrics:UIBarMetricsDefault];
+    return navCon;
+}
+
+#pragma mark -
+#pragma mark MyTabBarDelegate
+- (void)tapWithIndex:(NSInteger)index {
+    if (self.tabController.selectedIndex != index) {
+        
+        [self.tabController setSelectedIndex:index];
+    }else {
+        UINavigationController *itemNav = (UINavigationController *)[self.tabController.viewControllers objectAtIndex:index];
+        [itemNav popToRootViewControllerAnimated:YES];
+    }
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

@@ -28,10 +28,23 @@
 		B70576C61E595B94005E7027 /* reckBg.png in Resources */ = {isa = PBXBuildFile; fileRef = B70576BD1E595B94005E7027 /* reckBg.png */; };
 		B70576C71E595B94005E7027 /* reckBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70576BE1E595B94005E7027 /* reckBg@2x.png */; };
 		B70576CA1E598361005E7027 /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B70576C91E598361005E7027 /* DeviceModel.m */; };
-		B70576CD1E598384005E7027 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B70576CC1E598384005E7027 /* SFHFKeychainUtils.m */; };
+		B70576CD1E598384005E7027 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B70576CC1E598384005E7027 /* SFHFKeychainUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B7334F711E62A2A3001768D8 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7334F6F1E62A2A3001768D8 /* TabBarViewController.m */; };
 		B7334F721E62A2A3001768D8 /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7334F701E62A2A3001768D8 /* TabBarViewController.xib */; };
 		B7334F761E62A35A001768D8 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B7334F751E62A35A001768D8 /* UIColor+Additions.m */; };
+		B7C5EC731E62B75E0070F27A /* SPHotPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C5EC711E62B75E0070F27A /* SPHotPictureViewController.m */; };
+		B7C5EC741E62B75E0070F27A /* SPHotPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C5EC721E62B75E0070F27A /* SPHotPictureViewController.xib */; };
+		B7C5EC771E62B7710070F27A /* SPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C5EC761E62B7710070F27A /* SPBaseViewController.m */; };
+		B7C5EC7B1E62B87A0070F27A /* SPPersonalPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C5EC791E62B87A0070F27A /* SPPersonalPageViewController.m */; };
+		B7C5EC7C1E62B87A0070F27A /* SPPersonalPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C5EC7A1E62B87A0070F27A /* SPPersonalPageViewController.xib */; };
+		B7C5EC801E62BA5B0070F27A /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C5EC7F1E62BA5B0070F27A /* NSString+Additions.m */; };
+		B7C5EC851E62BA840070F27A /* Base64Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C5EC841E62BA840070F27A /* Base64Extension.m */; };
+		B7C5EC891E62BFD80070F27A /* SPMorePlatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C5EC871E62BFD80070F27A /* SPMorePlatesViewController.m */; };
+		B7C5EC8A1E62BFD80070F27A /* SPMorePlatesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C5EC881E62BFD80070F27A /* SPMorePlatesViewController.xib */; };
+		B7C5EC8E1E62BFED0070F27A /* SPSecondTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C5EC8C1E62BFED0070F27A /* SPSecondTabViewController.m */; };
+		B7C5EC8F1E62BFED0070F27A /* SPSecondTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C5EC8D1E62BFED0070F27A /* SPSecondTabViewController.xib */; };
+		B7C5EC931E62C30A0070F27A /* UIWindow+Motion.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C5EC921E62C30A0070F27A /* UIWindow+Motion.m */; };
+		B7C5EC951E62C7570070F27A /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C5EC941E62C7570070F27A /* images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +91,28 @@
 		B7334F741E62A35A001768D8 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
 		B7334F751E62A35A001768D8 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
 		B7334F771E62A3CF001768D8 /* SecretPicture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretPicture-Prefix.pch"; sourceTree = "<group>"; };
+		B7C5EC701E62B75E0070F27A /* SPHotPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHotPictureViewController.h; sourceTree = "<group>"; };
+		B7C5EC711E62B75E0070F27A /* SPHotPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHotPictureViewController.m; sourceTree = "<group>"; };
+		B7C5EC721E62B75E0070F27A /* SPHotPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPHotPictureViewController.xib; sourceTree = "<group>"; };
+		B7C5EC751E62B7710070F27A /* SPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPBaseViewController.h; sourceTree = "<group>"; };
+		B7C5EC761E62B7710070F27A /* SPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPBaseViewController.m; sourceTree = "<group>"; };
+		B7C5EC781E62B87A0070F27A /* SPPersonalPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPersonalPageViewController.h; sourceTree = "<group>"; };
+		B7C5EC791E62B87A0070F27A /* SPPersonalPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPersonalPageViewController.m; sourceTree = "<group>"; };
+		B7C5EC7A1E62B87A0070F27A /* SPPersonalPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPPersonalPageViewController.xib; sourceTree = "<group>"; };
+		B7C5EC7E1E62BA5B0070F27A /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		B7C5EC7F1E62BA5B0070F27A /* NSString+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.m"; sourceTree = "<group>"; };
+		B7C5EC821E62BA840070F27A /* Base64Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Defines.h; sourceTree = "<group>"; };
+		B7C5EC831E62BA840070F27A /* Base64Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Extension.h; sourceTree = "<group>"; };
+		B7C5EC841E62BA840070F27A /* Base64Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Extension.m; sourceTree = "<group>"; };
+		B7C5EC861E62BFD80070F27A /* SPMorePlatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMorePlatesViewController.h; sourceTree = "<group>"; };
+		B7C5EC871E62BFD80070F27A /* SPMorePlatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMorePlatesViewController.m; sourceTree = "<group>"; };
+		B7C5EC881E62BFD80070F27A /* SPMorePlatesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPMorePlatesViewController.xib; sourceTree = "<group>"; };
+		B7C5EC8B1E62BFED0070F27A /* SPSecondTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPSecondTabViewController.h; sourceTree = "<group>"; };
+		B7C5EC8C1E62BFED0070F27A /* SPSecondTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPSecondTabViewController.m; sourceTree = "<group>"; };
+		B7C5EC8D1E62BFED0070F27A /* SPSecondTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPSecondTabViewController.xib; sourceTree = "<group>"; };
+		B7C5EC911E62C30A0070F27A /* UIWindow+Motion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Motion.h"; sourceTree = "<group>"; };
+		B7C5EC921E62C30A0070F27A /* UIWindow+Motion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Motion.m"; sourceTree = "<group>"; };
+		B7C5EC941E62C7570070F27A /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
 		E71F5AE7D6643DAFBCA18055 /* Pods-SecretPicture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretPicture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecretPicture/Pods-SecretPicture.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,6 +131,7 @@
 		091D8AEE1E52D68B00C38F26 /* Library(第三方) */ = {
 			isa = PBXGroup;
 			children = (
+				B7C5EC811E62BA710070F27A /* Base64 */,
 				B70576B11E595B94005E7027 /* LoadingIndicator */,
 				091D8B081E52DB4600C38F26 /* DeviceInfo */,
 				091D8B041E52DB1900C38F26 /* SFHFKeychainUtils */,
@@ -114,6 +150,7 @@
 		091D8AF01E52D70A00C38F26 /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
+				B7C5EC7D1E62BA4D0070F27A /* NSString+Additions */,
 				B7334F731E62A331001768D8 /* UIColor+Additions */,
 				091D8AFD1E52DA5C00C38F26 /* NSDate+Utilities */,
 				091D8AF91E52D9D900C38F26 /* UIImageAdditions */,
@@ -190,16 +227,20 @@
 		09DEFAA81E5153ED00DD2189 /* SecretPicture */ = {
 			isa = PBXGroup;
 			children = (
-				B7334F6D1E62A0CE001768D8 /* Home */,
+				B7C5EC6F1E62B7240070F27A /* HomeController */,
+				B7334F6D1E62A0CE001768D8 /* TabBar */,
 				091D8AF01E52D70A00C38F26 /* Category(分类) */,
 				091D8AEF1E52D6ED00C38F26 /* Macro(宏定义) */,
 				091D8AEE1E52D68B00C38F26 /* Library(第三方) */,
 				09DEFAAC1E5153ED00DD2189 /* AppDelegate.h */,
 				09DEFAAD1E5153ED00DD2189 /* AppDelegate.m */,
+				B7C5EC911E62C30A0070F27A /* UIWindow+Motion.h */,
+				B7C5EC921E62C30A0070F27A /* UIWindow+Motion.m */,
 				09DEFAAF1E5153ED00DD2189 /* ViewController.h */,
 				09DEFAB01E5153ED00DD2189 /* ViewController.m */,
 				09DEFAB21E5153ED00DD2189 /* Main.storyboard */,
 				09DEFAB51E5153ED00DD2189 /* Assets.xcassets */,
+				B7C5EC941E62C7570070F27A /* images.xcassets */,
 				09DEFAB71E5153ED00DD2189 /* LaunchScreen.storyboard */,
 				09DEFABA1E5153ED00DD2189 /* Info.plist */,
 				09DEFAA91E5153ED00DD2189 /* Supporting Files */,
@@ -243,14 +284,14 @@
 			path = resource;
 			sourceTree = "<group>";
 		};
-		B7334F6D1E62A0CE001768D8 /* Home */ = {
+		B7334F6D1E62A0CE001768D8 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
 				B7334F6E1E62A2A3001768D8 /* TabBarViewController.h */,
 				B7334F6F1E62A2A3001768D8 /* TabBarViewController.m */,
 				B7334F701E62A2A3001768D8 /* TabBarViewController.xib */,
 			);
-			name = Home;
+			name = TabBar;
 			sourceTree = "<group>";
 		};
 		B7334F731E62A331001768D8 /* UIColor+Additions */ = {
@@ -260,6 +301,46 @@
 				B7334F751E62A35A001768D8 /* UIColor+Additions.m */,
 			);
 			name = "UIColor+Additions";
+			sourceTree = "<group>";
+		};
+		B7C5EC6F1E62B7240070F27A /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				B7C5EC751E62B7710070F27A /* SPBaseViewController.h */,
+				B7C5EC761E62B7710070F27A /* SPBaseViewController.m */,
+				B7C5EC701E62B75E0070F27A /* SPHotPictureViewController.h */,
+				B7C5EC711E62B75E0070F27A /* SPHotPictureViewController.m */,
+				B7C5EC721E62B75E0070F27A /* SPHotPictureViewController.xib */,
+				B7C5EC8B1E62BFED0070F27A /* SPSecondTabViewController.h */,
+				B7C5EC8C1E62BFED0070F27A /* SPSecondTabViewController.m */,
+				B7C5EC8D1E62BFED0070F27A /* SPSecondTabViewController.xib */,
+				B7C5EC861E62BFD80070F27A /* SPMorePlatesViewController.h */,
+				B7C5EC871E62BFD80070F27A /* SPMorePlatesViewController.m */,
+				B7C5EC881E62BFD80070F27A /* SPMorePlatesViewController.xib */,
+				B7C5EC781E62B87A0070F27A /* SPPersonalPageViewController.h */,
+				B7C5EC791E62B87A0070F27A /* SPPersonalPageViewController.m */,
+				B7C5EC7A1E62B87A0070F27A /* SPPersonalPageViewController.xib */,
+			);
+			name = HomeController;
+			sourceTree = "<group>";
+		};
+		B7C5EC7D1E62BA4D0070F27A /* NSString+Additions */ = {
+			isa = PBXGroup;
+			children = (
+				B7C5EC7E1E62BA5B0070F27A /* NSString+Additions.h */,
+				B7C5EC7F1E62BA5B0070F27A /* NSString+Additions.m */,
+			);
+			name = "NSString+Additions";
+			sourceTree = "<group>";
+		};
+		B7C5EC811E62BA710070F27A /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				B7C5EC821E62BA840070F27A /* Base64Defines.h */,
+				B7C5EC831E62BA840070F27A /* Base64Extension.h */,
+				B7C5EC841E62BA840070F27A /* Base64Extension.m */,
+			);
+			name = Base64;
 			sourceTree = "<group>";
 		};
 		C7F9BAE32E06E28F216F6CF2 /* Pods */ = {
@@ -340,12 +421,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7C5EC7C1E62B87A0070F27A /* SPPersonalPageViewController.xib in Resources */,
 				B7334F721E62A2A3001768D8 /* TabBarViewController.xib in Resources */,
 				B70576C21E595B94005E7027 /* 37x-Checkmark.png in Resources */,
 				09DEFAB91E5153ED00DD2189 /* LaunchScreen.storyboard in Resources */,
 				B70576C31E595B94005E7027 /* 37x-Checkmark@2x.png in Resources */,
+				B7C5EC8A1E62BFD80070F27A /* SPMorePlatesViewController.xib in Resources */,
 				B70576C51E595B94005E7027 /* forbid@2x.png in Resources */,
+				B7C5EC8F1E62BFED0070F27A /* SPSecondTabViewController.xib in Resources */,
 				B70576C41E595B94005E7027 /* forbid.png in Resources */,
+				B7C5EC951E62C7570070F27A /* images.xcassets in Resources */,
+				B7C5EC741E62B75E0070F27A /* SPHotPictureViewController.xib in Resources */,
 				B70576C71E595B94005E7027 /* reckBg@2x.png in Resources */,
 				B70576C61E595B94005E7027 /* reckBg.png in Resources */,
 				09DEFAB61E5153ED00DD2189 /* Assets.xcassets in Resources */,
@@ -411,16 +497,24 @@
 				B705767B1E595989005E7027 /* UIView+LayoutFrame.m in Sources */,
 				B7334F761E62A35A001768D8 /* UIColor+Additions.m in Sources */,
 				09DEFAB11E5153ED00DD2189 /* ViewController.m in Sources */,
+				B7C5EC7B1E62B87A0070F27A /* SPPersonalPageViewController.m in Sources */,
 				B7334F711E62A2A3001768D8 /* TabBarViewController.m in Sources */,
+				B7C5EC8E1E62BFED0070F27A /* SPSecondTabViewController.m in Sources */,
 				B70576CD1E598384005E7027 /* SFHFKeychainUtils.m in Sources */,
+				B7C5EC931E62C30A0070F27A /* UIWindow+Motion.m in Sources */,
 				B70576721E59592F005E7027 /* NSDate+Additions.m in Sources */,
 				B70576CA1E598361005E7027 /* DeviceModel.m in Sources */,
+				B7C5EC851E62BA840070F27A /* Base64Extension.m in Sources */,
+				B7C5EC731E62B75E0070F27A /* SPHotPictureViewController.m in Sources */,
 				B70576C01E595B94005E7027 /* MBProgressHUDNew+BJHubHelper.m in Sources */,
 				09DEFAAE1E5153ED00DD2189 /* AppDelegate.m in Sources */,
+				B7C5EC801E62BA5B0070F27A /* NSString+Additions.m in Sources */,
+				B7C5EC891E62BFD80070F27A /* SPMorePlatesViewController.m in Sources */,
 				B70576BF1E595B94005E7027 /* LoadingIndicator.m in Sources */,
 				B705767A1E595989005E7027 /* UIView+Additions.m in Sources */,
 				B70576751E595964005E7027 /* UIImage+Additions.m in Sources */,
 				09DEFAAB1E5153ED00DD2189 /* main.m in Sources */,
+				B7C5EC771E62B7710070F27A /* SPBaseViewController.m in Sources */,
 				B70576C11E595B94005E7027 /* MBProgressHUDNew.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

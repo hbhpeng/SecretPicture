@@ -6,6 +6,10 @@ pod 'ReactiveCocoa', '~> 2.5'
 
 pod 'YYCache'
 
+pod 'FLEX', '~> 2.0', :configurations => ['Debug']
+
+pod 'SDWebImage', '~>3.8'
+
 target ‘SecretPicture’ do
 pod 'AFNetworking', '~> 3.0'
 end

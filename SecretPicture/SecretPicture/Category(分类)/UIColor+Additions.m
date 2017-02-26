@@ -102,16 +102,6 @@
     return [UIColor colorWithHexString:@"#ececec"];
 }
 
-+ (UIColor*)BJ_SegmentNormalColor
-{
-    return MCSEGMENT_UNSELETED_COLOR;
-}
-
-+ (UIColor*)BJ_SegmentSelectedColor
-{
-    return MCSEGMENT_SELETED_COLOR;
-}
-
 /**
  *  列表section 背景色
  *

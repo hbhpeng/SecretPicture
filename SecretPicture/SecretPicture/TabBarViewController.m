@@ -12,11 +12,10 @@
 #import "DeviceModel.h"
 
 static const NSString *tabBarNameArray[] = {
-    [0] = @"车型",
-    [1] = @"选车",
-    [2] = @"工具",
-    [3] = @"社区",
-    [4] = @"我的",
+    [0] = @"热门",
+    [1] = @"资源",
+    [2] = @"板块",
+    [3] = @"我的",
 };
 
 @interface TabBarViewController ()
@@ -62,20 +61,6 @@ static const NSString *tabBarNameArray[] = {
         selectedInt = (int)button.tag;
     }
     
-    
-    if (button.tag == 5) {
-        /*
-        self.moreShowNew.hidden = YES;
-        [USER_DEFAULT setBool:NO forKey:kShowNewMore];
-        [USER_DEFAULT synchronize];
-         */
-        [self freshNew];
-    } else if (button.tag == 3 && !self.toolNewView.hidden) {
-//        [USER_DEFAULT setBool:NO forKey:kShowNewTool];
-        [USER_DEFAULT synchronize];
-//        [self freshNew];
-    }
-    
     if (delegate && [delegate respondsToSelector:@selector(tapWithIndex:)]) {
         [delegate tapWithIndex:(button.tag-1)];
     }
@@ -115,7 +100,7 @@ static const NSString *tabBarNameArray[] = {
 //    [button setTitleColor:TextColorBlue forState:UIControlStateNormal];
     [button setTitle:(NSString *)tabBarNameArray[0] forState:UIControlStateNormal];
 
-    CGFloat margin = (MAINWIDTH - 64*5)/5;
+    CGFloat margin = (MAINWIDTH - 64*4)/4;
     
     int index = 0;
     for (UIButton *btn in _tabBarButtonCollection) {
@@ -182,22 +167,7 @@ static const NSString *tabBarNameArray[] = {
 
         selectedInt = (int)button.tag;
     }
-    
-    if (button.tag == 5) {
-        [self freshNew];
-        /*
-        self.moreShowNew.hidden = YES;
-        [USER_DEFAULT setBool:NO forKey:kShowNewMore];
-        [USER_DEFAULT synchronize];
-        */
-        
-        //NSArray *arrow = @[@(1),@(2)];
-        //NSLog(@"%@",arrow[2]);
-    } else if (button.tag == 3 && !self.toolNewView.hidden) {
-//        [USER_DEFAULT setBool:NO forKey:kShowNewTool];
-        [USER_DEFAULT synchronize];
-        [self freshNew];
-    }
+
     
     if (delegate && [delegate respondsToSelector:@selector(tapWithIndex:)]) {
         [delegate tapWithIndex:(button.tag-1)];
