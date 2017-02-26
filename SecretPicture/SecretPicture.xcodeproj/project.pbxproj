@@ -29,10 +29,12 @@
 		B70576C71E595B94005E7027 /* reckBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B70576BE1E595B94005E7027 /* reckBg@2x.png */; };
 		B70576CA1E598361005E7027 /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B70576C91E598361005E7027 /* DeviceModel.m */; };
 		B70576CD1E598384005E7027 /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B70576CC1E598384005E7027 /* SFHFKeychainUtils.m */; };
+		B7334F711E62A2A3001768D8 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7334F6F1E62A2A3001768D8 /* TabBarViewController.m */; };
+		B7334F721E62A2A3001768D8 /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7334F701E62A2A3001768D8 /* TabBarViewController.xib */; };
+		B7334F761E62A35A001768D8 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B7334F751E62A35A001768D8 /* UIColor+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		091D8AEC1E52D63100C38F26 /* SecretPicture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretPicture-Prefix.pch"; sourceTree = "<group>"; };
 		09DEFAA61E5153ED00DD2189 /* SecretPicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretPicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DEFAAA1E5153ED00DD2189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09DEFAAC1E5153ED00DD2189 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,6 +72,12 @@
 		B70576C91E598361005E7027 /* DeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceModel.m; sourceTree = "<group>"; };
 		B70576CB1E598384005E7027 /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFHFKeychainUtils.h; sourceTree = "<group>"; };
 		B70576CC1E598384005E7027 /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		B7334F6E1E62A2A3001768D8 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		B7334F6F1E62A2A3001768D8 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		B7334F701E62A2A3001768D8 /* TabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
+		B7334F741E62A35A001768D8 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		B7334F751E62A35A001768D8 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		B7334F771E62A3CF001768D8 /* SecretPicture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecretPicture-Prefix.pch"; sourceTree = "<group>"; };
 		E71F5AE7D6643DAFBCA18055 /* Pods-SecretPicture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretPicture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecretPicture/Pods-SecretPicture.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +114,7 @@
 		091D8AF01E52D70A00C38F26 /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
+				B7334F731E62A331001768D8 /* UIColor+Additions */,
 				091D8AFD1E52DA5C00C38F26 /* NSDate+Utilities */,
 				091D8AF91E52D9D900C38F26 /* UIImageAdditions */,
 				091D8AF11E52D74800C38F26 /* UIView+setFrame */,
@@ -181,6 +190,7 @@
 		09DEFAA81E5153ED00DD2189 /* SecretPicture */ = {
 			isa = PBXGroup;
 			children = (
+				B7334F6D1E62A0CE001768D8 /* Home */,
 				091D8AF01E52D70A00C38F26 /* Category(分类) */,
 				091D8AEF1E52D6ED00C38F26 /* Macro(宏定义) */,
 				091D8AEE1E52D68B00C38F26 /* Library(第三方) */,
@@ -201,7 +211,7 @@
 			isa = PBXGroup;
 			children = (
 				09DEFAAA1E5153ED00DD2189 /* main.m */,
-				091D8AEC1E52D63100C38F26 /* SecretPicture-Prefix.pch */,
+				B7334F771E62A3CF001768D8 /* SecretPicture-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -231,6 +241,25 @@
 				B70576BE1E595B94005E7027 /* reckBg@2x.png */,
 			);
 			path = resource;
+			sourceTree = "<group>";
+		};
+		B7334F6D1E62A0CE001768D8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B7334F6E1E62A2A3001768D8 /* TabBarViewController.h */,
+				B7334F6F1E62A2A3001768D8 /* TabBarViewController.m */,
+				B7334F701E62A2A3001768D8 /* TabBarViewController.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		B7334F731E62A331001768D8 /* UIColor+Additions */ = {
+			isa = PBXGroup;
+			children = (
+				B7334F741E62A35A001768D8 /* UIColor+Additions.h */,
+				B7334F751E62A35A001768D8 /* UIColor+Additions.m */,
+			);
+			name = "UIColor+Additions";
 			sourceTree = "<group>";
 		};
 		C7F9BAE32E06E28F216F6CF2 /* Pods */ = {
@@ -311,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7334F721E62A2A3001768D8 /* TabBarViewController.xib in Resources */,
 				B70576C21E595B94005E7027 /* 37x-Checkmark.png in Resources */,
 				09DEFAB91E5153ED00DD2189 /* LaunchScreen.storyboard in Resources */,
 				B70576C31E595B94005E7027 /* 37x-Checkmark@2x.png in Resources */,
@@ -379,7 +409,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B705767B1E595989005E7027 /* UIView+LayoutFrame.m in Sources */,
+				B7334F761E62A35A001768D8 /* UIColor+Additions.m in Sources */,
 				09DEFAB11E5153ED00DD2189 /* ViewController.m in Sources */,
+				B7334F711E62A2A3001768D8 /* TabBarViewController.m in Sources */,
 				B70576CD1E598384005E7027 /* SFHFKeychainUtils.m in Sources */,
 				B70576721E59592F005E7027 /* NSDate+Additions.m in Sources */,
 				B70576CA1E598361005E7027 /* DeviceModel.m in Sources */,

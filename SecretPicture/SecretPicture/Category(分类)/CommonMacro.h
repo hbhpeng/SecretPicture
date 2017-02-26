@@ -9,5 +9,9 @@
 #ifndef CommonMacro_h
 #define CommonMacro_h
 
+#define USER_DEFAULT [NSUserDefaults standardUserDefaults]
+#define MAINHEIGHT [[UIScreen mainScreen] bounds].size.height
+#define MAINWIDTH [[UIScreen mainScreen] bounds].size.width
+
 
 #endif /* CommonMacro_h */
