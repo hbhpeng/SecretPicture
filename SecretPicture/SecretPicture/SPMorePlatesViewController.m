@@ -24,6 +24,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)initialView
+{
+    [self addCustomeTitleViewWithTitle:@"板块"];
+}
+
 /*
 #pragma mark - Navigation
 

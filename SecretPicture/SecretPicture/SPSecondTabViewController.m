@@ -24,6 +24,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)initialView
+{
+    [self addCustomeTitleViewWithTitle:@"资源"];
+}
+
 /*
 #pragma mark - Navigation
 

@@ -24,6 +24,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)initialData
+{
+
+}
+
+- (void)initialView
+{
+    [self addCustomeTitleViewWithTitle:@"热门"];
+}
+
 /*
 #pragma mark - Navigation
 

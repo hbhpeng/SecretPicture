@@ -64,7 +64,6 @@ static const NSString *tabBarNameArray[] = {
     if (delegate && [delegate respondsToSelector:@selector(tapWithIndex:)]) {
         [delegate tapWithIndex:(button.tag-1)];
     }
-    
 }
 
 - (void)viewDidLoad

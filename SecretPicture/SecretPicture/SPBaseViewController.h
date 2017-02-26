@@ -10,4 +10,10 @@
 
 @interface SPBaseViewController : UIViewController
 
+- (void)initialView;
+
+- (void)initialData;
+
+- (void)addCustomeTitleViewWithTitle:(NSString*)title;
+
 @end

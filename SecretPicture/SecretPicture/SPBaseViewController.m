@@ -21,6 +21,29 @@
         self.edgesForExtendedLayout = UIRectEdgeNone;
         self.automaticallyAdjustsScrollViewInsets = NO;
     }
+    
+    [self initialData];
+    [self initialView];
+}
+
+- (void)addCustomeTitleViewWithTitle:(NSString*)title{
+    UILabel *titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 44)];
+    titleLabel.text = title;
+    titleLabel.textColor = [UIColor whiteColor];
+    titleLabel.font = [UIFont boldSystemFontOfSize:20];
+    titleLabel.backgroundColor = [UIColor clearColor];
+    titleLabel.textAlignment = NSTextAlignmentCenter;
+    self.navigationItem.titleView = titleLabel;
+}
+
+- (void)initialData
+{
+
+}
+
+- (void)initialView
+{
+
 }
 
 - (void)didReceiveMemoryWarning {

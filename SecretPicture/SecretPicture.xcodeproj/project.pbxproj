@@ -45,6 +45,7 @@
 		B7C5EC8F1E62BFED0070F27A /* SPSecondTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7C5EC8D1E62BFED0070F27A /* SPSecondTabViewController.xib */; };
 		B7C5EC931E62C30A0070F27A /* UIWindow+Motion.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C5EC921E62C30A0070F27A /* UIWindow+Motion.m */; };
 		B7C5EC951E62C7570070F27A /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C5EC941E62C7570070F27A /* images.xcassets */; };
+		B7C727CD1E62D51500D425B1 /* BJTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C727CC1E62D51500D425B1 /* BJTabBarItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +114,8 @@
 		B7C5EC911E62C30A0070F27A /* UIWindow+Motion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Motion.h"; sourceTree = "<group>"; };
 		B7C5EC921E62C30A0070F27A /* UIWindow+Motion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Motion.m"; sourceTree = "<group>"; };
 		B7C5EC941E62C7570070F27A /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		B7C727CB1E62D51500D425B1 /* BJTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJTabBarItem.h; sourceTree = "<group>"; };
+		B7C727CC1E62D51500D425B1 /* BJTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJTabBarItem.m; sourceTree = "<group>"; };
 		E71F5AE7D6643DAFBCA18055 /* Pods-SecretPicture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecretPicture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SecretPicture/Pods-SecretPicture.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -287,6 +290,8 @@
 		B7334F6D1E62A0CE001768D8 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				B7C727CB1E62D51500D425B1 /* BJTabBarItem.h */,
+				B7C727CC1E62D51500D425B1 /* BJTabBarItem.m */,
 				B7334F6E1E62A2A3001768D8 /* TabBarViewController.h */,
 				B7334F6F1E62A2A3001768D8 /* TabBarViewController.m */,
 				B7334F701E62A2A3001768D8 /* TabBarViewController.xib */,
@@ -509,6 +514,7 @@
 				B70576C01E595B94005E7027 /* MBProgressHUDNew+BJHubHelper.m in Sources */,
 				09DEFAAE1E5153ED00DD2189 /* AppDelegate.m in Sources */,
 				B7C5EC801E62BA5B0070F27A /* NSString+Additions.m in Sources */,
+				B7C727CD1E62D51500D425B1 /* BJTabBarItem.m in Sources */,
 				B7C5EC891E62BFD80070F27A /* SPMorePlatesViewController.m in Sources */,
 				B70576BF1E595B94005E7027 /* LoadingIndicator.m in Sources */,
 				B705767A1E595989005E7027 /* UIView+Additions.m in Sources */,
