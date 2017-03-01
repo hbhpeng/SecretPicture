@@ -350,7 +350,7 @@ static NSString *_key = @"139E53F54A1DB2B0C850F728FD828456DABD1849420BC454F5F3CB
 #pragma mark -
 @implementation NSString (JSONValue)
 
-- (id)JSONValue{
+- (id)BJJSONValue{
 
     NSData* data = [self dataUsingEncoding:NSUTF8StringEncoding];
     NSError* error = nil;

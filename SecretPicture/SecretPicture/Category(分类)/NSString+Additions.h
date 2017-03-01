@@ -52,5 +52,5 @@
 @end
 
 @interface NSString (JSONValue)
-- (id)JSONValue;
+- (id)BJJSONValue;
 @end

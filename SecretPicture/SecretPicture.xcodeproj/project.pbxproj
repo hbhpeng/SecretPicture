@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0959F4C01E66ADB700A2D189 /* BJForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 0959F4BC1E66ADB700A2D189 /* BJForm.m */; };
+		0959F4C11E66ADB700A2D189 /* BJFormItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0959F4BF1E66ADB700A2D189 /* BJFormItem.m */; };
+		0959F4C41E66AEFB00A2D189 /* BJHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0959F4C31E66AEFB00A2D189 /* BJHTTPClient.m */; };
+		0959F4CB1E66AF0C00A2D189 /* BJHttpDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0959F4C61E66AF0C00A2D189 /* BJHttpDownloadCache.m */; };
+		0959F4CC1E66AF0C00A2D189 /* BJHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0959F4C81E66AF0C00A2D189 /* BJHTTPSessionManager.m */; };
+		0959F4CD1E66AF0C00A2D189 /* NSURLSessionDataTask+CachePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0959F4CA1E66AF0C00A2D189 /* NSURLSessionDataTask+CachePolicy.m */; };
+		0959F4D01E66AF3B00A2D189 /* BJResponseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0959F4CF1E66AF3B00A2D189 /* BJResponseModel.m */; };
+		09C014221E66B56D00561CF4 /* NSDictionary+QueryStringBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 09C014211E66B56D00561CF4 /* NSDictionary+QueryStringBuilder.m */; };
 		09DEFAAB1E5153ED00DD2189 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DEFAAA1E5153ED00DD2189 /* main.m */; };
 		09DEFAAE1E5153ED00DD2189 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DEFAAD1E5153ED00DD2189 /* AppDelegate.m */; };
 		09DEFAB11E5153ED00DD2189 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DEFAB01E5153ED00DD2189 /* ViewController.m */; };
@@ -49,6 +57,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0959F4BB1E66ADB700A2D189 /* BJForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJForm.h; sourceTree = "<group>"; };
+		0959F4BC1E66ADB700A2D189 /* BJForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJForm.m; sourceTree = "<group>"; };
+		0959F4BD1E66ADB700A2D189 /* BJFormHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJFormHeader.h; sourceTree = "<group>"; };
+		0959F4BE1E66ADB700A2D189 /* BJFormItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJFormItem.h; sourceTree = "<group>"; };
+		0959F4BF1E66ADB700A2D189 /* BJFormItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJFormItem.m; sourceTree = "<group>"; };
+		0959F4C21E66AEFB00A2D189 /* BJHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJHTTPClient.h; sourceTree = "<group>"; };
+		0959F4C31E66AEFB00A2D189 /* BJHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJHTTPClient.m; sourceTree = "<group>"; };
+		0959F4C51E66AF0C00A2D189 /* BJHTTPDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJHTTPDownloadCache.h; sourceTree = "<group>"; };
+		0959F4C61E66AF0C00A2D189 /* BJHttpDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJHttpDownloadCache.m; sourceTree = "<group>"; };
+		0959F4C71E66AF0C00A2D189 /* BJHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJHTTPSessionManager.h; sourceTree = "<group>"; };
+		0959F4C81E66AF0C00A2D189 /* BJHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJHTTPSessionManager.m; sourceTree = "<group>"; };
+		0959F4C91E66AF0C00A2D189 /* NSURLSessionDataTask+CachePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionDataTask+CachePolicy.h"; sourceTree = "<group>"; };
+		0959F4CA1E66AF0C00A2D189 /* NSURLSessionDataTask+CachePolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionDataTask+CachePolicy.m"; sourceTree = "<group>"; };
+		0959F4CE1E66AF3B00A2D189 /* BJResponseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BJResponseModel.h; sourceTree = "<group>"; };
+		0959F4CF1E66AF3B00A2D189 /* BJResponseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BJResponseModel.m; sourceTree = "<group>"; };
+		09C014201E66B56D00561CF4 /* NSDictionary+QueryStringBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QueryStringBuilder.h"; sourceTree = "<group>"; };
+		09C014211E66B56D00561CF4 /* NSDictionary+QueryStringBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QueryStringBuilder.m"; sourceTree = "<group>"; };
 		09DEFAA61E5153ED00DD2189 /* SecretPicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretPicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DEFAAA1E5153ED00DD2189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		09DEFAAC1E5153ED00DD2189 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -134,6 +159,7 @@
 		091D8AEE1E52D68B00C38F26 /* Library(第三方) */ = {
 			isa = PBXGroup;
 			children = (
+				0959F4BA1E66ADA900A2D189 /* BJForm */,
 				B7C5EC811E62BA710070F27A /* Base64 */,
 				B70576B11E595B94005E7027 /* LoadingIndicator */,
 				091D8B081E52DB4600C38F26 /* DeviceInfo */,
@@ -153,6 +179,7 @@
 		091D8AF01E52D70A00C38F26 /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
+				09C0141F1E66B56300561CF4 /* NSDictionary+QueryStringBuilder */,
 				B7C5EC7D1E62BA4D0070F27A /* NSString+Additions */,
 				B7334F731E62A331001768D8 /* UIColor+Additions */,
 				091D8AFD1E52DA5C00C38F26 /* NSDate+Utilities */,
@@ -207,6 +234,37 @@
 				B70576C91E598361005E7027 /* DeviceModel.m */,
 			);
 			path = DeviceInfo;
+			sourceTree = "<group>";
+		};
+		0959F4BA1E66ADA900A2D189 /* BJForm */ = {
+			isa = PBXGroup;
+			children = (
+				0959F4C21E66AEFB00A2D189 /* BJHTTPClient.h */,
+				0959F4C31E66AEFB00A2D189 /* BJHTTPClient.m */,
+				0959F4C51E66AF0C00A2D189 /* BJHTTPDownloadCache.h */,
+				0959F4C61E66AF0C00A2D189 /* BJHttpDownloadCache.m */,
+				0959F4C71E66AF0C00A2D189 /* BJHTTPSessionManager.h */,
+				0959F4C81E66AF0C00A2D189 /* BJHTTPSessionManager.m */,
+				0959F4C91E66AF0C00A2D189 /* NSURLSessionDataTask+CachePolicy.h */,
+				0959F4CA1E66AF0C00A2D189 /* NSURLSessionDataTask+CachePolicy.m */,
+				0959F4BB1E66ADB700A2D189 /* BJForm.h */,
+				0959F4BC1E66ADB700A2D189 /* BJForm.m */,
+				0959F4BD1E66ADB700A2D189 /* BJFormHeader.h */,
+				0959F4BE1E66ADB700A2D189 /* BJFormItem.h */,
+				0959F4BF1E66ADB700A2D189 /* BJFormItem.m */,
+				0959F4CE1E66AF3B00A2D189 /* BJResponseModel.h */,
+				0959F4CF1E66AF3B00A2D189 /* BJResponseModel.m */,
+			);
+			path = BJForm;
+			sourceTree = "<group>";
+		};
+		09C0141F1E66B56300561CF4 /* NSDictionary+QueryStringBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				09C014201E66B56D00561CF4 /* NSDictionary+QueryStringBuilder.h */,
+				09C014211E66B56D00561CF4 /* NSDictionary+QueryStringBuilder.m */,
+			);
+			name = "NSDictionary+QueryStringBuilder";
 			sourceTree = "<group>";
 		};
 		09DEFA9D1E5153ED00DD2189 = {
@@ -500,6 +558,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B705767B1E595989005E7027 /* UIView+LayoutFrame.m in Sources */,
+				09C014221E66B56D00561CF4 /* NSDictionary+QueryStringBuilder.m in Sources */,
 				B7334F761E62A35A001768D8 /* UIColor+Additions.m in Sources */,
 				09DEFAB11E5153ED00DD2189 /* ViewController.m in Sources */,
 				B7C5EC7B1E62B87A0070F27A /* SPPersonalPageViewController.m in Sources */,
@@ -511,13 +570,20 @@
 				B70576CA1E598361005E7027 /* DeviceModel.m in Sources */,
 				B7C5EC851E62BA840070F27A /* Base64Extension.m in Sources */,
 				B7C5EC731E62B75E0070F27A /* SPHotPictureViewController.m in Sources */,
+				0959F4D01E66AF3B00A2D189 /* BJResponseModel.m in Sources */,
+				0959F4C41E66AEFB00A2D189 /* BJHTTPClient.m in Sources */,
 				B70576C01E595B94005E7027 /* MBProgressHUDNew+BJHubHelper.m in Sources */,
 				09DEFAAE1E5153ED00DD2189 /* AppDelegate.m in Sources */,
 				B7C5EC801E62BA5B0070F27A /* NSString+Additions.m in Sources */,
+				0959F4CD1E66AF0C00A2D189 /* NSURLSessionDataTask+CachePolicy.m in Sources */,
 				B7C727CD1E62D51500D425B1 /* BJTabBarItem.m in Sources */,
+				0959F4C11E66ADB700A2D189 /* BJFormItem.m in Sources */,
+				0959F4CB1E66AF0C00A2D189 /* BJHttpDownloadCache.m in Sources */,
 				B7C5EC891E62BFD80070F27A /* SPMorePlatesViewController.m in Sources */,
+				0959F4CC1E66AF0C00A2D189 /* BJHTTPSessionManager.m in Sources */,
 				B70576BF1E595B94005E7027 /* LoadingIndicator.m in Sources */,
 				B705767A1E595989005E7027 /* UIView+Additions.m in Sources */,
+				0959F4C01E66ADB700A2D189 /* BJForm.m in Sources */,
 				B70576751E595964005E7027 /* UIImage+Additions.m in Sources */,
 				09DEFAAB1E5153ED00DD2189 /* main.m in Sources */,
 				B7C5EC771E62B7710070F27A /* SPBaseViewController.m in Sources */,
